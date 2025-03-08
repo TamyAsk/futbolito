@@ -1,0 +1,21 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Asegura que el body ocupe toda la altura de la ventana */
+    background-color: #ffffff; /* Gris claro para el fondo de toda la página */
+}
+
+.navbar{
+    background-color: #333;
+}
+
+#titulo-nav{
+    font-family: Arial, sans-serif; /* Fuente legible */
+    font-size: 34px;
+    color: #f2b705; 
+    text-align: center;
+    padding: 16px;
+    border-bottom: 3px solid #FFA500;
+    font-style: italic;
+}
+

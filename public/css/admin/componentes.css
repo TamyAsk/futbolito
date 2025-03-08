@@ -1,0 +1,75 @@
+/* Clase base para los botones */
+.btn {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+/* Botón Editar - Amarillo */
+.btn-edit {
+    background-color: #FFD700; /* Amarillo dorado */
+    color: #000;
+}
+
+.btn-edit:hover {
+    background-color: #FFC107; /* Amarillo más oscuro */
+    transform: scale(1.05);
+}
+
+/* Botón Eliminar - Rojo */
+.btn-delete {
+    background-color: #DC3545; /* Rojo */
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #C82333; /* Rojo más oscuro */
+    transform: scale(1.05);
+}
+
+.btn-save {
+    background-color: #28a745; /* Verde */
+    color: #fff;
+}
+
+.btn-save:hover {
+    background-color: #218838; /* Verde más oscuro */
+    transform: scale(1.01);
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #000;
+}

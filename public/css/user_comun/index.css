@@ -1,0 +1,52 @@
+#titulo_mini{
+    margin-top: 50px;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.minijuegos{
+    justify-content: center; /* Centra horizontalmente */
+    display: flex;
+}
+
+.cuadro-mini{
+    border: solid 3px black;
+    border-radius: 10px;
+    margin: 0px 20px;
+    text-align: center;
+    width: 180px;
+    height: 100%;
+}
+
+#img-mini{
+    width: 140px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+.titulo-mini{
+    background-color: aquamarine;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.cuadro-mini-porid{
+    width: 400px;
+    height: auto;
+    border: solid 3px black;;
+}
+
+.contenedor-cuadro{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    height: 50%;
+}
+
+.c-cuadro{
+    display: inline-block;
+    background-color: aliceblue;
+}
